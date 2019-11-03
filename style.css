@@ -1,0 +1,30 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    background-color: #FFE347;
+    background-image: linear-gradient(-75deg, #FFE347, #FFBC42);
+}
+.title-div{
+    padding-top: 75px;
+    text-align: center;
+}
+.boredGirl-div{
+    padding-top: 75px;
+}
+.boredGirl{
+    width: 350px;
+    border-radius: 50%;
+
+}
+#gradient {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#FFBC42), to(#FFE347));
+    background: -webkit-linear-gradient(top, #FFBC42, #FFE347);
+    background: -moz-linear-gradient(top, #FFBC42, #FFE347);
+    background: -ms-linear-gradient(top, #FFBC42, #FFE347);
+    background: -o-linear-gradient(top, #FFBC42, #FFE347);
+    background: linear-gradient(top, #FFBC42, #FFE347);
+    z-index: -1;
+  }
